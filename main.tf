@@ -14,9 +14,9 @@ resource "aws_db_instance" "example" {
   instance_class      = "db.t2.micro"
   skip_final_snapshot = true
   db_name             = "example_database"
-  # How should we set the username and password?
-  username = "???"
-  password = "???"
+  
+  username = var.db_username
+  password = var.db_password
 }
 
 resource "aws_launch_configuration" "example" {
