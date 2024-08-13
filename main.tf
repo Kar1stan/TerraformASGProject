@@ -8,7 +8,7 @@ provider "random" {}
 resource "random_pet" "name" {}
 
 resource "aws_db_instance" "example" {
-  identifier_prefix   = "terraform-up-and-running"
+  identifier_prefix   = "terraform-sql-table"
   engine              = "mysql"
   allocated_storage   = 10
   instance_class      = "db.t2.micro"
