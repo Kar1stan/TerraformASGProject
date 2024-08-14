@@ -1,5 +1,5 @@
 # TerraformASGProject
-Terraform project using AWS Auto Scalling Group and ALB load balancer,creating cluster of web servers on Ubuntu with "Hello World".
+Terraform project using AWS Auto Scalling Group and ALB load balancer,creating cluster of web servers on Ubuntu with "Hello World",also creating MySql database.
 
 ## 💻 Topics
 
@@ -24,6 +24,13 @@ If you want run the project open the terminal and run:
 ```
 $ export AWS_ACCESS_KEY_ID=45trEayUUu1(example)
 $ export AWS_SECRET_ACCESS_KEY=45trEayUUu1(example)
+$ terraform init
+$ terraform apply
+```
+If you want to create the MySql database open the terminal and run: 
+```
+$ export TF_VAR_db_username=45trEayUUu1(example)
+$ export TF_VAR_db_password=45trEayUUu1(example)
 $ terraform init
 $ terraform apply
 ```
