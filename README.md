@@ -1,5 +1,5 @@
 # TerraformASGProject
-Terraform project using AWS Auto Scalling Group and ALB load balancer,creating cluster of web servers on Ubuntu with "Hello World",also creating MySql database.
+Terraform project using AWS Auto Scalling Group and ALB load balancer,creating cluster of web servers on Ubuntu with "Hello World",also creating MySQL database.
 
 ## 💻 Topics
 
